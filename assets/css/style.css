@@ -42,13 +42,15 @@ header .logo{
     text-transform: uppercase;
     line-height: 1;
 }
+header .logo a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
 header .sublogo{
     font-size: 12px;
     font-weight: bold;
     color: white;
-}
-nav.mobile {
-    display: none;
 }
 nav.desktop ul{
     position: relative;
@@ -70,6 +72,12 @@ nav.desktop a:hover{
     transition: 0.25s;
     color: black;
     font-weight: 400;
+}
+.botao-menu-mobile{
+    display: none;
+}
+nav.mobile {
+    display: none;
 }
 
 
@@ -259,21 +267,21 @@ footer p{
 
 
 
+
 /*-- media screen - responsividade --*/
 @media screen and (max-width: 768px){
     nav.desktop{ display: none; }
     nav.mobile{ display: block; }
     nav.mobile ul{
+        display: none;
         top: 52px;
         z-index: 3;
         position: absolute;
         left: 0;
         width: 100%;
-        display: block;
         text-align: center;
     }
     nav.mobile li{
-        display: none;
         font-weight: 300;
         font-size: 17px;
         padding: 8px 0;
@@ -281,7 +289,6 @@ footer p{
         border-bottom: 1px solid #ccc;
     }
     nav.mobile li a{
-        display: block;
         color: #444;
         text-decoration: none;
     }

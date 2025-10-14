@@ -20,7 +20,7 @@
 
     <header>
         <div class="center">
-            <div class="logo left">Daniel<br><div class="sublogo left">Informática</div></div>
+            <div class="logo left"><a href="index.php">Daniel</a><br><div class="sublogo left"><a href="index.php">Informática</a></div></div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="index.php">Principal</a></li>
@@ -143,7 +143,8 @@
         <p>Todos os Direitos Reservados &copy; <?php echo date('Y'); ?></p>
     </footer>
 
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
