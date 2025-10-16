@@ -56,21 +56,27 @@
         </div><!-- center -->
     </section><!-- banner-principal -->
 
-    
-    <section class="descricao-autor">
-        <div class="center">
-            <div class="w50 left">
-                <h2>Sobre nós</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi. Excepturi perspiciatis debitis qui autem eaque. Beatae, maxime ullam!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, molestiae dolorem nam vitae fuga, eos, amet sed totam necessitatibus adipisci quasi.</p>
-            </div><!--w50-->
 
-            <div class="w50 left">
-                <img class="right" src="assets/images/daniel.jpg" alt="">
-            </div><!--w50-->
+    <section class="nossos-serviços">
+        <div class="center">
+            <h2 class="titulo-nossos-serviços">Nossos Serviços</h2>
+            <!-- <p class="descricao-nossos-serviços">Trabalhamos com Informática há 15 anos.<br>Sempre prezando pela Qualidade, Compromisso e Respeito com os nossos clientes.</p> -->
+            <div class="w25 left">
+                <h3 class="item-nossos-serviços">Desenvolvimento de Sistemas</h3>
+            </div>
+            <div class="w25 left">
+                <h3 class="item-nossos-serviços">Loja de Informática</h3>
+            </div>
+            <div class="w25 left">
+                <h3 class="item-nossos-serviços">Assistência Técnica de Informática</h3>
+            </div>
+            <div class="w25 left">
+                <h3 class="item-nossos-serviços">Assistência Técnica de Eletrônicos em Geral</h3>
+                <!-- <button class="btn-saiba-mais-nossos-serviços">Saiba mais</button> -->
+            </div>
             <div class="clear"></div>
-        </div><!-- center -->
-    </section><!-- descricao-autor -->
+        </div>
+    </section>
 
 
     <section class="especialidades">
@@ -138,13 +144,39 @@
         </div><!-- center -->
     </section><!-- extras -->
 
+
+
+        <section class="descricao-autor">
+        <div class="center">
+            <div class="w50 left">
+                <h2>Sobre nós</h2>
+                <p>Opa, jóia? Sou o Daniel.</p>
+                <p>Venho trabalhando com Informática e Tecnologia da Informação há 15 anos. Nesse período tive o privilégio de trabalhar em diversos segmentos da Informática.<br>E é com essa experiência e comprometimento que fornecemos nossos serviços a você, cliente amigo.<br>Logo abaixo você encontra nosso Whatsapp e Redes Sociais, aguardo o seu contato.</p>
+            </div><!--w50-->
+
+            <div class="w50 left">
+                <img class="right" src="assets/images/daniel.jpg" alt="">
+            </div><!--w50-->
+            <div class="clear"></div>
+        </div><!-- center -->
+    </section><!-- descricao-autor -->
+
+
+    <section class="contato">
+        <div class="center">
+            <h2>Contatos</h2>
+            
+        </div>
+    </section>
+
+
     <footer>
         <h3 class="rodape-title">Daniel Informática</h3>
         <p>Todos os Direitos Reservados &copy; <?php echo date('Y'); ?></p>
     </footer>
 
 
-    <script src="assets/js/jquery.min.js"></script>
+    <!-- <script src="assets/js/jquery.min.js"></script> -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/script.js"></script>
 

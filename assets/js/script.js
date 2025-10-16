@@ -1,19 +1,21 @@
-
 $(function(){
 
+    /*
     $('nav.mobile').click(function(){
         var listaMenu = $('nav.mobile ul');
+
+        if(listaMenu.is(':hidden'))
+
         listaMenu.fadeIn();
     })
-});
+    */
 
-
-
-//abrir e fechar o nav.mobile pelo botao-menu-mobile:
-$(function(){
-    /*$('.botao-menu-mobile').click(function(){
+    //abrir e fechar o nav.mobile pelo botao-menu-mobile:
+    /* 
+    $('.botao-menu-mobile').click(function(){
         $('nav.mobile ul').fadeToggle();
-    });*/
+    });
+    */
 
     $('nav.mobile').click(function(){
         var listaMenu = $('nav.mobile ul');
@@ -31,5 +33,4 @@ $(function(){
             listaMenu.slideToggle();
         }
     });
-
 })

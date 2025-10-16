@@ -19,6 +19,10 @@
     padding: 0 2%;
     width: 50%;
 }
+.w25{
+    padding: 1rem 0;
+    width: 25%;
+}
 .clear{
     clear: both;
 }
@@ -139,24 +143,33 @@ section.banner-principal form input[type="submit"]{
     padding-left: 10px;
 }
 
-
-/*-- descrição autor --*/
-img{
-    width: 100%;
-    max-width: 300px;
+/*-- nossos serviços --*/
+.nossos-serviços{
+    background: #404580;
 }
-section.descricao-autor{
-    padding: 40px 0;
-}
-section.descricao-autor h2{
-     font-size: 1.5625rem;
+h2.titulo-nossos-serviços{
+    font-size: 1.875rem;
+    text-align: center;
     font-weight: 400;
-    color: #444;
+    color: #ffffff;
+    padding: 1rem 0;
 }
-section.descricao-autor p{
-    font-size: 16px;
-    color: #444;
-    margin-top: 10px;
+p.descricao-nossos-serviços{
+    text-align: center;
+    font-size: 1rem;
+    color: #999;
+}
+h3.item-nossos-serviços{
+    text-align: center;
+    color: #999;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+button.btn-saiba-mais-nossos-serviços{
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 
@@ -242,6 +255,39 @@ h2.servicos-title{
 }
 
 
+/*-- descrição autor --*/
+img{
+    width: 100%;
+    max-width: 300px;
+}
+section.descricao-autor{
+    padding: 20px 0;
+}
+section.descricao-autor h2{
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: #444;
+}
+section.descricao-autor p{
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+
+
+/*-- contato --*/
+section.contato{
+    padding: 0 2%;
+}
+section.contato h2{
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: #444;
+    text-align: center;
+}
+
+
 
 footer{
     text-align: center;
@@ -305,12 +351,23 @@ footer p{
         max-width: 300px;
     }
     .w50{
-        padding: 20px;
+        padding: 10px 0;
         width: 100%;
     }
     .w33{
+        width: 50%;
+        padding: 20px;
+    }
+    .w25{
         width: 100%;
         padding: 20px;
+    }
+
+    /*--descricao-autor --*/
+    section.descricao-autor h2{
+        text-align: center;
+        font-size: 1.875rem;
+        font-weight: 400;
     }
 
     .box-especialidade{
