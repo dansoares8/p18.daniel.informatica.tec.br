@@ -143,6 +143,7 @@
         <p>Todos os Direitos Reservados &copy; <?php echo date('Y'); ?></p>
     </footer>
 
+<script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/script.js"></script>
 
 </body>
