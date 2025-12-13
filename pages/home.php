@@ -10,7 +10,7 @@
     </section><!-- banner-principal -->
 
 
-    <section class="nossos-serviços">
+    <section id="nossos-servicos" class="nossos-serviços">
         <div class="center">
             <h2 class="titulo-nossos-serviços">Nossos Serviços</h2>
             <!-- <p class="descricao-nossos-serviços">Trabalhamos com Informática há 15 anos.<br>Sempre prezando pela Qualidade, Compromisso e Respeito com os nossos clientes.</p> -->

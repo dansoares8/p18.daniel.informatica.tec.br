@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Informática</title>
+    <title>Logomarca</title>
 
     <!-- meta seo --> 
      <meta name="description" content="Daniel Informática, Serviços em Informática, Atendimento em Brasilândia de Minas-MG">
@@ -23,11 +23,11 @@
 
     <header>
         <div class="center">
-            <div class="logo left"><a href="<?php echo INCLUDE_PATH; ?>">Daniel</a><br><div class="sublogo left"><a href="<?php echo INCLUDE_PATH; ?>">Informática</a></div></div>
+            <div class="logo left"><a href="<?php echo INCLUDE_PATH; ?>">Logomarca</a><br></div>
             <nav class="desktop right">
                 <ul>
                     <li><a href="<?php echo INCLUDE_PATH; ?>">Principal</a></li>
-                    <li><a href="<?php echo INCLUDE_PATH; ?>serviços">Serviços</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>nossos-servicos">Serviços</a></li>
                     <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
                     <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
                 </ul>
