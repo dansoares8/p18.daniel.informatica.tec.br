@@ -92,6 +92,13 @@
                     </ul>
                 </div>
 
+                <div class="servicos-dev">
+                    <!-- ideia:
+                        título: Alguns Sites e Sistemas já criados
+                        colocar um carousel flutuando com imagens retangulares, cada imagem, se clicar, leva pra um site já criado
+                    -->
+                </div>
+
             </div><!-- w50 -->
             <div class="clear"></div>
         </div><!-- center -->
